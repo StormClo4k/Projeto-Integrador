@@ -76,6 +76,7 @@ if saidas:
 if saldo > 0:
     print(f"\n{VERDE}Saldo Final: R$ {saldo:.2f}{RESET}")
     print(f"{NEGRITO}{VERDE}Margem de Lucro: {margem_lucro:+.2f}%{RESET}")
+    print(f"{NEGRITO}{VERDE}Valor recomendado para emergencias: R${saldo * 0.1:.2f}{RESET} {AMARELO}(10% do saldo final){RESET}")
 elif saldo < 0:
     print(f"\n{VERMELHO}Saldo Final: R$ {saldo:.2f}{RESET}")
     print(f"{NEGRITO}{VERMELHO}Margem de Lucro: {margem_lucro:+.2f}%{RESET}")
